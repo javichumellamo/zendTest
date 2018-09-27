@@ -1,0 +1,22 @@
+{
+    "name": "donaldtrump/bookstore",
+    "description": "Libreria online",
+    "minimum-stability": "stable",
+    "license": "Apache-2.0",
+    "type": "project",
+    "authors": [
+        {
+            "name": "donaldtrump",
+            "email": "donaldtrump@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.17",
+        "twig/twig": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bookstore\\": "src"
+        }
+    }
+}
